@@ -93,6 +93,14 @@ pre{
 	z-index:-1;
 }
 
+.footer{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	font-size:.75rem;
+	opacity:.25;
+}
+
 @media(min-width:1025px){
 
 	.container{
