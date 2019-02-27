@@ -47,6 +47,10 @@ h1{
 	z-index:100;
 }
 
+.z-200{
+z-index:200;
+	}
+
 pre{
 	color:#fff;
 }
