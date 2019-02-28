@@ -8,16 +8,7 @@
   font-weight: normal;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?i4qwxu');
-  src:  url('fonts/icomoon.eot?i4qwxu#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?i4qwxu') format('truetype'),
-    url('fonts/icomoon.woff?i4qwxu') format('woff'),
-  font-weight: normal;
-  font-style: normal;
-}
+ 
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */

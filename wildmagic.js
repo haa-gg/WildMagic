@@ -9,7 +9,7 @@ var submit = document.getElementById("submit").onclick = function(){
   console.log('click');
   
 $("#display").show();
-
+ 
 var json =
  {
   "values": [
