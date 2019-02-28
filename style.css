@@ -72,9 +72,7 @@ pre{
       font-family: Monoton;
   color:#fff;
   padding:1rem 0;
-   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
+   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 70px #c33c3c, 0 0 80px #c33c3c, 0 0 100px #c33c3c;
   -webkit-backface-visibility: hidden;
   z-index:50;
   overflow:hidden;
@@ -112,6 +110,13 @@ max-width:50%;
 margin:0;
 padding-left:5rem;
 	}
+
+	#submit{
+   -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
 }
 
 @media(max-width:1024px){
@@ -154,8 +159,7 @@ padding-left:5rem;
 		position: absolute;
     left: 50%;
     transform: translate(-50%, 0);
-    top:35%;
-		
+    top:35%;	
 	}
 
 	p{
