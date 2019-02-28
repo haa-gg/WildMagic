@@ -3,7 +3,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="585px" height="651.818px" viewBox="0 0 585 651.818" enable-background="new 0 0 585 651.818" xml:space="preserve">
-	 <defs>
+	<!--  <defs>
         <filter id="drop-shadow">
             <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"></feGaussianBlur>
 			<feOffset dy="2" dx="3"></feOffset>
@@ -22,10 +22,10 @@
 			<feComposite in2="shadowDiff" operator="in"></feComposite>
 			<feComposite in2="firstfilter" operator="over"></feComposite>
         </filter>
-    </defs>
+    </defs> -->
 <g>
 	<g>
-		<path fill="#ffffff" filter="url(#drop-shadow)" d="M293.129,3.282c1.376,0,2.747,0.269,3.708,0.819c28.879,16.518,57.603,33.307,86.372,50.016
+		<path fill="#ffffff" filter="" d="M293.129,3.282c1.376,0,2.747,0.269,3.708,0.819c28.879,16.518,57.603,33.307,86.372,50.016
 			c23.591,13.702,47.156,27.449,70.803,41.057c24.496,14.098,49.087,28.031,73.614,42.076c14.347,8.215,28.651,16.503,42.969,24.77
 			c3.026,1.747,3.991,4.262,3.986,7.86c-0.122,95.661-0.117,191.323-0.13,286.985c-0.001,9.164-0.072,18.33,0.082,27.492
 			c0.061,3.602-1.37,5.623-4.542,7.416c-21.022,11.875-41.924,23.969-62.85,36.016c-20.075,11.559-40.147,23.125-60.196,34.727
