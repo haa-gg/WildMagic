@@ -3,10 +3,32 @@
 /* Trendy retro font brought to you by some cool cat named Atelier Triay, more font info at: https://www.readvisions.com/marvin*/
 @font-face {
   font-family: 'marvin_visionsbold';
-  src: url('marvinvisions-bold-webfont.woff2') format('woff2'),
-  url('marvinvisions-bold-webfont.woff') format('woff');
+  src: url('fonts/marvinvisions-bold-webfont.woff2') format('woff2'),
+  url('fnts/marvinvisions-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?i4qwxu');
+  src:  url('fonts/icomoon.eot?i4qwxu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?i4qwxu') format('truetype'),
+    url('fonts/icomoon.woff?i4qwxu') format('woff'),
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
 }
 
 body {
@@ -93,6 +115,7 @@ pre{
 	position:absolute;
 	right:10%;
 	z-index:-1;
+	font-size:30vw;
 }
 
 .footer{
@@ -101,6 +124,11 @@ pre{
 	right:10px;
 	font-size:.75rem;
 	opacity:.25;
+}
+
+.icon-dice:before {
+  content: "\e900";
+  color: #fff;
 }
 
 @media(min-width:1025px){
@@ -157,15 +185,21 @@ padding-left:5rem;
 	.bg-img{
 		max-width:66%;
 		position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0);
-    top:35%;	
+    left: 48%;
+    transform: translate(-48%, 0);
+    top:35%;
+    font-size:50vw;	
 	}
 
 	p{
 		background-color:rgba(0,0,0,0.75);
 		padding:1.5rem;
 
+	}
+
+	.footer{
+		text-align:center;
+		width:100%;
 	}
 
 	.mobile-top{
