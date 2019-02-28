@@ -1,8 +1,12 @@
 window.onload = function(){
   $("#display").hide();
 
+console.log('load');
+
 //Button to find out your new fate
 var submit = document.getElementById("submit").onclick = function(){
+
+  console.log('click');
   
 $("#display").show();
 
@@ -312,7 +316,7 @@ var json =
  ]
 };
 
-
+console.log('past array');
 
 
 //Look over our table of magical effects and bind the total number to a variable
@@ -326,7 +330,8 @@ var magicalEffects = json.values[variableDice][0];
 
 //Display the outcome of your meddling with fate
 document.getElementById('display').innerHTML = ("<div id=\"text\">You Rolled</div>" + ("<div id=\"roll\">" + (variableDice + 1) + "</div>"));
+console.log('roll element');
 document.getElementById('display').innerHTML += ("<div id=\"fate\">" + magicalEffects + "</div>");
-
+console.log('result element');
 };
 };
