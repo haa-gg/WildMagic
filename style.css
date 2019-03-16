@@ -86,7 +86,7 @@ body {
 		}
 	}
 
-	.bg-img{
+	.render-fix{
 		-webkit-backface-visibility: hidden;
 -webkit-perspective: 1000;
 -webkit-transform: translate3d(0,0,0);
@@ -95,6 +95,10 @@ backface-visibility: hidden;
 perspective: 1000;
 transform: translate3d(0,0,0);
 transform: translateZ(0);
+	}
+
+	.bg-img{
+		
 		-webkit-filter:  drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff) drop-shadow(0 0 30px rgba(195,60,60,0.25)) drop-shadow(0 0 30px rgba(195,60,60,0.75)) drop-shadow(0 0 100px #a5419c);
 		filter:  drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff) drop-shadow(0 0 30px rgba(195,60,60,0.25)) drop-shadow(0 0 30px rgba(195,60,60,0.75)) drop-shadow(0 0 100px #a5419c);
 		position:absolute;
