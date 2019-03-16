@@ -155,7 +155,7 @@ overflow:hidden;
   	}
 
   	.bg-img{
-  		max-width:66%;
+  		max-width:86%;
   		position: absolute;
   		left: 48%;
   		transform: translate(-48%, 0);
@@ -201,7 +201,7 @@ overflow:hidden;
 
 .bg-img{
 min-height:unset;
-width:45%;
+width:66%;
 }
 
 }
