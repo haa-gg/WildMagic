@@ -95,13 +95,12 @@ backface-visibility: hidden;
 perspective: 1000;
 transform: translate3d(0,0,0);
 transform: translateZ(0);
+overflow:hidden;
 	}
 
 	.bg-img{
-		
-		
 		position:absolute;
-		right:10%;
+		right:-5%;
 		z-index:-1;
 		font-size:30vw;
 		max-height:100vh;
@@ -199,10 +198,12 @@ transform: translateZ(0);
   }
 
 @media(orientation:landscape) and (max-width:1024px){
+
 .bg-img{
 min-height:unset;
-width:25%;
+width:45%;
 }
+
 }
 
   @media(max-width:1024px){
